@@ -50,7 +50,6 @@ main{
 section{
     display: flex;
     background-color: #680cf1;
-
 }
 .container-main-one{
     border-radius: 10px;
@@ -76,14 +75,11 @@ section{
 .container-main-two{
     width: 30%;
 }
-
-
 .container-main-two-top a img{
     max-width: 100%;
     height: 80%;
     object-fit: cover;
     border-radius: 7px;
-
 }
 .container-main-two-top{
     width: 100%;
@@ -94,33 +90,10 @@ section{
     background-color: #8b7ba3;
     height: 50%;
 }
-
-
-
-.dentro-img{
-    
-    position:absolute;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: blue;
-    color: aliceblue;
-    width: 50px;
-    height: 14px;
-    border-radius: 2px;
-    font-family: sans-serif;
-    font-size: 8px;
-    overflow: hidden;
-}
-
-
-
 .section-2 a img{
     max-width: 100%;
     height: 80%;
-    object-fit: cover;
     border-radius: 7px;
-
 }
 .section-two{
     width: 70%;
@@ -131,4 +104,38 @@ section{
     margin-bottom: 10px;
 }
 
+.outras{
+    background-color:#772ce800;
+    height: auto;
+    width: 60%;
+    display: flex;
+    gap: 10px;
+    margin-top: 30px;
+}
+.lado1{
+    width: 50%;
+    height: 100%;
+    background-color: rgba(0, 255, 255, 0);
+}
+.lado1 img{
+    width: 100%;
+    height: 80%;
+}
+.lado2{
+    width: 50%;
+    height: 100%;
+    background-color: rgba(25, 180, 180, 0);
+
+}
+.lado1 h1{
+    font-size: 12px; 
+}
+.lado1 p{
+    font-size: 9px;
+}
+footer{
+    background-color: #680cf1;
+    width: 100%;
+    height: 20vh;
+}
 
