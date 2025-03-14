@@ -76,11 +76,8 @@ section{
     height:auto;
     border-radius: 10px;
     object-fit: cover;
-    transition: transform 0.3s ease-in-out;
 }
-.container-main-one a img:hover{
-    transform: scale(1.2);
-}
+
 .container-main-one a img :hover{
     width: auto;
 }
